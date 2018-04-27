@@ -33,4 +33,4 @@ RUN         apt-get install -y libgmp-dev libmpfr-dev libmpc-dev    \
             
 RUN         apt-get install -y guile-1.8
 
-ENTRYPOINT  ["/bin/bash"]
+# ENTRYPOINT  ["/bin/bash"]
