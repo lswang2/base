@@ -31,6 +31,6 @@ RUN         apt-get install -y git python python3 wget build-essential autoconf 
 RUN         apt-get install -y libgmp-dev libmpfr-dev libmpc-dev    \
             zlib1g-dev texinfo vim
             
-RUN         apt-get install -y guile-1.8
+# RUN         apt-get install -y guile-1.8
 
 # ENTRYPOINT  ["/bin/bash"]
