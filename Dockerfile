@@ -26,6 +26,7 @@ MAINTAINER  wang@picocel.com
 USER        root
 
 RUN         apt-get -y update
+# gcc를 쓰지 않아도 되면 인스톨할 필요가 없음
 RUN         apt-get install -y git python python3 wget build-essential autoconf flex bison gperf
 
 RUN         apt-get install -y libgmp-dev libmpfr-dev libmpc-dev    \
